@@ -75,8 +75,8 @@ Try to use Visual Studio 2022 to compile it whenever possible.
 ### 5. Execute
 
 Run the compiled executable. If everything is configured correctly, your shellcode will be executed (e.g., the calculator will launch).
-[https://github.com/Answerr/CRT-Remove-With-Fiber-Execute-Shellcode-Loader/blob/main/images/360.png](https://github.com/Answerr/CRT-Remove-With-Fiber-Execute-Shellcode-Loader/blob/main/images/360.png?raw=true)
-[https://github.com/Answerr/CRT-Remove-With-Fiber-Execute-Shellcode-Loader/blob/main/images/hurong.png](https://github.com/Answerr/CRT-Remove-With-Fiber-Execute-Shellcode-Loader/blob/main/images/hurong.png?raw=true)
+![360 Total Security Detection](https://github.com/Answerr/CRT-Remove-With-Fiber-Execute-Shellcode-Loader/blob/main/images/360.png?raw=true)
+![Huorong Security Detection](https://github.com/Answerr/CRT-Remove-With-Fiber-Execute-Shellcode-Loader/blob/main/images/hurong.png?raw=true)
 ## Disclaimer
 
 This project is intended for academic research and educational purposes only. Do not use this code on any system without proper authorization. The author is not responsible for any misuse or damage caused by this code.
