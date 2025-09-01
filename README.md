@@ -71,17 +71,11 @@ unsigned char encryptedShellcode[] = {
 Copy the entire `unsigned char encryptedShellcode[]` array generated in the previous step. Open the `main.cpp` file and **replace** the existing `encryptedShellcode` array with the one you just copied.
 
 ### 4. Compile
-
-Compile the code using a C++ compiler that supports C++11 or later. If you are using Visual Studio, you can create a new C++ Console App project, paste the code, and compile.
-
-If you are using MinGW-w64, you can use the following command:
-```bash
-g++ main.cpp -o runner.exe -static
-```
+Try to use Visual Studio 2022 to compile it whenever possible.
 
 ### 5. Execute
 
-Run the compiled executable (`runner.exe`). If everything is configured correctly, your shellcode will be executed (e.g., the calculator will launch).
+Run the compiled executable. If everything is configured correctly, your shellcode will be executed (e.g., the calculator will launch).
 
 ## Disclaimer
 
