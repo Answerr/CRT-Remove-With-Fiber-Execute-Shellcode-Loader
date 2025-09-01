@@ -16,7 +16,6 @@ The primary goal of this project is to showcase a method for loading and executi
     - **Why use Fibers?**:
         1.  **Stealth**: Compared to common techniques like `CreateThread` or `CreateRemoteThread`, using Fibers to execute shellcode is a less frequent approach and may evade some EDR/AV products that only monitor thread creation.
         2.  **Control Flow Obfuscation**: Converting the main thread to a fiber, then creating and switching to another fiber containing the shellcode, introduces a control flow switch that can be less intuitive for analysts to follow.
-- **Console-less Execution**: Uses `#pragma comment(linker, "/SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup")` to set the program's entry point, allowing it to run in the background without a console window popping up.
 
 ## File Descriptions
 
